@@ -1,1 +1,1 @@
-Sitemap: https://SGGmilagro.github.io/wikiapp/sitemap.xml
+Sitemap: https://SGGmilagro.github.io/genailib_rg/sitemap.xml

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>genailib_rg - Genailib_rg Console Docs</title>
+<title>genailib_rg - OpenAI Connection Checkup Docs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,10 +103,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="genailib_rg - Genailib_rg Console Docs">
+<meta property="og:title" content="genailib_rg - OpenAI Connection Checkup Docs">
 <meta property="og:description" content="Get Chat response Pages">
 <meta property="og:site_name" content="genailib_rg">
-<meta name="twitter:title" content="genailib_rg - Genailib_rg Console Docs">
+<meta name="twitter:title" content="genailib_rg - OpenAI Connection Checkup Docs">
 <meta name="twitter:description" content="Get Chat response Pages">
 <meta name="twitter:card" content="summary">
 </head>
@@ -132,7 +132,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./console.html">Genailib_rg Console Docs</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./testchatconnection.html">OpenAI Connection Checkup Docs</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -152,7 +152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./console.html" class="sidebar-item-text sidebar-link active">
+  <a href="./console.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Genailib_rg Console Docs</span></a>
   </div>
 </li>
@@ -164,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./testchatconnection.html" class="sidebar-item-text sidebar-link">
+  <a href="./testchatconnection.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">OpenAI Connection Checkup Docs</span></a>
   </div>
 </li>
@@ -187,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Genailib_rg Console Docs</h1>
+<h1 class="title">OpenAI Connection Checkup Docs</h1>
 </div>
 
 
@@ -204,22 +204,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Welcome to the console documentation for Genailib_rg! This guide will help you understand how to use the command-line interface to interact with OpenAI’s chat API using the Genailib_rg library.</p>
+<p>Welcome to the console documentation for interacting with OpenAI! This guide will help you understand how to use the command-line interface to interact with OpenAI’s chat API using a simple script.</p>
 <section id="usage" class="level3">
 <h3 class="anchored" data-anchor-id="usage">Usage</h3>
 <p>To run the console interface, you can use the following command:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">❯</span> python genailib_rg/console.py</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># -p Tell me something interesting</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Connection</span> was Successful</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">[Response</span> from OpenAI based on the default prompt]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="ex">❯</span> python genailib_rg/console.py <span class="at">--prompt</span> <span class="st">"Tell me a joke"</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">Connection</span> was Successful</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">Why</span> don<span class="st">'t scientists trust atoms? Because they make up everything!</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">❯ python genailib_rg/console.py -p "What'</span>s the weather like today<span class="pp">?</span><span class="st">"</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">Connection was Successful</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">I'm sorry, I don't have access to real-time data. Please check a weather service.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">❯</span> python genailib_rg/test_openai_connection.py</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Connection</span> was Successful</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Why</span> don<span class="st">'t scientists trust atoms? Because they make up everything!</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">❯ python genailib_rg/test_openai_connection.py</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">Connection Failed</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="st">An error occurred: [Error message]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

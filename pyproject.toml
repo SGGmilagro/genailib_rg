@@ -1,6 +1,6 @@
 [project]
 name = "genailib_rg"
-version = "0.1.1"
+version = "0.1.2"
 description = "A library to interact with OpenAI's API for generating chat responses."
 authors = [
     { name = "Your Name", email = "120662824+SGGmilagro@users.noreply.github.com" },

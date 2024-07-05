@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "wikiapp"
-  site-url: "https://SGGmilagro.github.io/wikiapp"
-  description: "Get Random Wikipedia Pages"
+  title: "genailib_rg"
+  site-url: "https://SGGmilagro.github.io/genailib_rg"
+  description: "Get Chat response Pages"
   repo-branch: main
-  repo-url: "https://github.com/SGGmilagro/wikiapp"
+  repo-url: "https://github.com/SGGmilagro/genailib_rg"

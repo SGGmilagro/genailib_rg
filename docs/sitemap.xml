@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SGGmilagro.github.io/wikiapp/wikipedia.html</loc>
-    <lastmod>2024-06-04T19:47:19.633Z</lastmod>
+    <loc>https://SGGmilagro.github.io/genailib_rg/testchatconnection.html</loc>
+    <lastmod>2024-07-05T01:46:45.617Z</lastmod>
   </url>
   <url>
-    <loc>https://SGGmilagro.github.io/wikiapp/index.html</loc>
-    <lastmod>2024-05-29T20:38:23.213Z</lastmod>
+    <loc>https://SGGmilagro.github.io/genailib_rg/index.html</loc>
+    <lastmod>2024-07-05T01:44:18.847Z</lastmod>
   </url>
   <url>
-    <loc>https://SGGmilagro.github.io/wikiapp/console.html</loc>
-    <lastmod>2024-06-04T19:47:19.631Z</lastmod>
+    <loc>https://SGGmilagro.github.io/genailib_rg/genailibrary.html</loc>
+    <lastmod>2024-07-05T01:14:59.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SGGmilagro.github.io/genailib_rg/console.html</loc>
+    <lastmod>2024-07-05T01:10:49.789Z</lastmod>
   </url>
 </urlset>
